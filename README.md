@@ -18,4 +18,10 @@ So by creating a local underscore package you are replacing the underlying under
 
 - Because [this issue](https://github.com/meteor/meteor/issues/1009) is not going anywhere but simply growing in +1's.
 - MDG does not have the resources to take on such a task as it will involve an arduous QA process.
-- It is doable as long as there's a push.
+- It is doable with help.
+
+### What now?
+
+I will try to spot and document any quirks I encounter as to how doing this will break Meteor due to they way Underscore and Lodash differ. For example, Underscore's `_.extend` will copy over prototypes where as Lodash's `_.extend` doesn't and therefore `iron:router` won't work properly.
+
+Also, I'll try to see if I can run the Meteor test suite.
