@@ -1,0 +1,21 @@
+## Replace Meteor Underscore with Lodash!
+
+This is a drop-in replacement of underscore to lodash, in a non-official way (obviously).
+
+### How is this different from installing a community package for Lodash?
+
+By including this package as a local package, you essentially make Meteor compile your app with Lodash instead of Underscore. 
+
+When you install a Lodash package, all you've done is install an additional package that doesn't actually replace Underscore, even though you're using Lodash in your app.
+
+### How does this work?
+
+Local packages take presendence over packages (even core packages). 
+
+So by creating a local underscore package you are replacing the underlying underscore.js files with lodash and now your Meteor will use only Lodash files to run your app.
+
+### Why?
+
+- Because [this issue](https://github.com/meteor/meteor/issues/1009) is not going anywhere but simply growing in +1's.
+- MDG does not have the resources to take on such a task as it will involve an arduous QA process.
+- It is doable as long as there's a push.
