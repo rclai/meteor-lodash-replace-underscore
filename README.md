@@ -28,6 +28,6 @@ Also, I'll try to see if I can run the Meteor test suite.
 
 ### Contributing
 
-It would be awesome if you guys would post issues or pull-requests to the `NOTES.md` file regarding certain things you've encountered.
+It would be awesome if you guys would post issues or pull-requests to the [`NOTES.md`](https://github.com/rclai/meteor-lodash-replace-underscore/blob/master/NOTES.md) file regarding certain things you've encountered.
 
 My hope is that Meteor will get a head start by using this information to (hopefully) transition to Lodash.
