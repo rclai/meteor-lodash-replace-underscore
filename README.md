@@ -2,6 +2,18 @@
 
 This is a drop-in replacement of underscore to lodash, in a non-official way (obviously).
 
+## Installation
+
+Because this is more of a hack than an actual official package, to install it, you just have to:
+
+```
+# make sure you have a "packages" folder in your app's root folder
+$ cd /your/meteor/app/packages
+$ git clone https://github.com/rclai/meteor-lodash-replace-underscore.git
+```
+
+That's it.
+
 ### How is this different from installing a community package for Lodash?
 
 By including this package as a local package, you essentially make Meteor compile your app with Lodash instead of Underscore. 
@@ -31,3 +43,7 @@ Also, I'll try to see if I can run the Meteor test suite.
 It would be awesome if you guys would post issues or pull-requests to the [`NOTES.md`](https://github.com/rclai/meteor-lodash-replace-underscore/blob/master/NOTES.md) file regarding certain things you've encountered.
 
 My hope is that Meteor will get a head start by using this information to (hopefully) transition to Lodash.
+
+### Credit
+
+This code is implemented by using the code from [here](https://github.com/stevezhu/meteor-lodash).
