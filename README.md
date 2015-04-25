@@ -25,3 +25,9 @@ So by creating a local underscore package you are replacing the underlying under
 I will try to spot and document any quirks I encounter as to how doing this will break Meteor due to they way Underscore and Lodash differ. For example, Underscore's `_.extend` will copy over prototypes where as Lodash's `_.extend` doesn't and therefore `iron:router` won't work properly.
 
 Also, I'll try to see if I can run the Meteor test suite.
+
+### Contributing
+
+It would be awesome if you guys would post issues or pull-requests to the `NOTES.md` file regarding certain things you've encountered.
+
+My hope is that Meteor will get a head start by using this information to (hopefully) transition to Lodash.
