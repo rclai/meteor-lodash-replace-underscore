@@ -1,7 +1,7 @@
 Package.describe({
   name: 'underscore',
   summary: "Collection of small helpers: _.map, _.each, ...",
-  version: '1.0.4-rc.0'
+  version: '1.0.4'
 });
 
 Npm.depends({'lodash': '3.7.0'});
